@@ -28,7 +28,7 @@ body{
 
 .header__menu{
     display: flex; /*Espaciado entre palabras*/
-    gap: 30px;
+    gap: 80px; /*30px*/
 }
 
 .header__menu__link{
@@ -45,7 +45,7 @@ body{
 }
 
 .presentacion {
-    padding: 5% 5%; /*reajustamos el margen, antes: margin: 10% 15%; ahora:*/
+    padding: 5% 15%; /*reajustamos el margen, antes: margin: 10% 15%; ahora:*/
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -151,8 +151,8 @@ body{
 
 @media (max-width: 1000px){
     .header{
-        padding: 8%;
-        text-align: center;
+        padding: 10%;
+        /*text-align: center;*/
     }
 
     .header__menu{
@@ -169,4 +169,3 @@ body{
         padding: 5%;
     }
 }
-
