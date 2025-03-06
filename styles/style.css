@@ -135,8 +135,8 @@ body{
 }
 
 .presentacion__imagen{
-    /*width: 50%;*/
-    max-width: fit-content;
+    width: 50%;
+    /*max-width: fit-content;*/
 }
 
 .footer{
@@ -165,7 +165,7 @@ body{
     }
 
     .presentacion__imagen{
-        width: 50%;
+        width: auto;
         padding: 5%;
     }
 }
